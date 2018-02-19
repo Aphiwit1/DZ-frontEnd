@@ -9,12 +9,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/main.css" />
 </head>
-<style>
-  .i {
-    margin-top: 25px;
-  }
-</style>
+
 <!--Navbar -->
 <nav class="navbar navbar-default ">
   <div class="container-fluid">
@@ -24,9 +21,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
-
-      <a class="navbar-brand" href="#">DonateZEN</a>
+      </button>      
+      <a class="navbar-brand " href="#">DonateZEN</a>
     </div>
 
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -52,17 +48,19 @@
   </div>
 </nav>
 
+<!-- End of navbar -->
+
 <body>
 
   <div class="container">
     <!--Dropdown-->
-    <div class="row">
+    <div class="row" align="center">
       <div class="col-md-6 ">
       </div>
       <div class="col-md-2 col-xs-4">
         <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">ตำบล</button>
-            <span class="caret"></span>
+          <span class="caret"></span>
           </button>
           <ul class="dropdown-menu">
             <li>
@@ -80,7 +78,7 @@
       <div class="col-md-2 col-xs-4">
         <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">อำเภอ</button>
-            <span class="caret"></span>
+          <span class="caret"></span>
           </button>
           <ul class="dropdown-menu">
             <li>
@@ -98,7 +96,7 @@
       <div class="col-md-2 col-xs-4">
         <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">จังหวัก</button>
-            <span class="caret"></span>
+          <span class="caret"></span>
           </button>
           <ul class="dropdown-menu">
             <li>
@@ -119,30 +117,169 @@
 
   <br>
 
-  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-xs-6 ">
+          <button type="button" class="btn btn-default btn-block a">หน้าแรก</button>
+        </div>
+        <div class="col-md-3 col-xs-6 ">
+          <button type="button" class="btn btn-default btn-block">สร้างประกาศ</button>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <button type="button" class="btn btn-default btn-block">ข้อความ</button>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <button type="button" class="btn btn-default btn-block">ประวัติส่วนตัว</button>
+        </div>
+      </div>
+      <br>
+    </div>
 
+  <!--Blog-->
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-xs-6 ">
-        <button type="button" class="btn btn-default btn-block a">หน้าแรก</button>
+
+      <!-- 1 Blog-->
+      <div class="col-md-3 col-sm-6" id="cardd">
+        <div class="card mb-4">
+          <img class="card-img-top" src="/img/pexels-photo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">รองเท้า</h2>
+            <p class="card-text">รองเท้าใช้แล้วอายุ 8 เดือน สภาพ 98% ไม่ค่อยได้ใช้ อยากจะให้คนที่ต้องการใช้จริงๆ ติดต่อมาที่ 089-xxxxxxx</p>
+            <a href="#" class="btn btn-success">ดูเพิ่มเติม</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2017 by
+            <a href="#">Aphiwit</a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-3 col-xs-6 ">
-        <button type="button" class="btn btn-default btn-block">สร้างประกาศ</button>
+
+      <!-- 1 Blog-->
+      <div class="col-md-3 col-sm-6" id="cardd">
+        <div class="card mb-4">
+          <img class="card-img-top" src="/img/pexels-photo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">รองเท้า</h2>
+            <p class="card-text">รองเท้าใช้แล้วอายุ 8 เดือน สภาพ 98% ไม่ค่อยได้ใช้ อยากจะให้คนที่ต้องการใช้จริงๆ ติดต่อมาที่ 089-xxxxxxx</p>
+            <a href="#" class="btn btn-success">ดูเพิ่มเติม</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2017 by
+            <a href="#">Aphiwit</a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-3 col-xs-6">
-        <button type="button" class="btn btn-default btn-block">ข้อความ</button>
+
+      <!-- 1 Blog-->
+      <div class="col-md-3 col-sm-6" id="cardd">
+        <div class="card mb-4">
+          <img class="card-img-top" src="/img/pexels-photo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">รองเท้า</h2>
+            <p class="card-text">รองเท้าใช้แล้วอายุ 8 เดือน สภาพ 98% ไม่ค่อยได้ใช้ อยากจะให้คนที่ต้องการใช้จริงๆ ติดต่อมาที่ 089-xxxxxxx</p>
+            <a href="#" class="btn btn-success">ดูเพิ่มเติม</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2017 by
+            <a href="#">Aphiwit</a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-3 col-xs-6">
-        <button type="button" class="btn btn-default btn-block">ประวัติส่วนตัว</button>
+      <div class="col-md-3 col-sm-6" id="cardd">
+        <div class="card mb-4">
+          <img class="card-img-top" src="/img/pexels-photo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">รองเท้า</h2>
+            <p class="card-text">รองเท้าใช้แล้วอายุ 8 เดือน สภาพ 98% ไม่ค่อยได้ใช้ อยากจะให้คนที่ต้องการใช้จริงๆ ติดต่อมาที่ 089-xxxxxxx</p>
+            <a href="#" class="btn btn-success">ดูเพิ่มเติม</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2017 by
+            <a href="#">Aphiwit</a>
+          </div>
+        </div>
       </div>
+
+      <!-- 1 Blog-->
+      <div class="col-md-3 col-sm-6" id="cardd">
+        <div class="card mb-4">
+          <img class="card-img-top" src="/img/pexels-photo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">รองเท้า</h2>
+            <p class="card-text">รองเท้าใช้แล้วอายุ 8 เดือน สภาพ 98% ไม่ค่อยได้ใช้ อยากจะให้คนที่ต้องการใช้จริงๆ ติดต่อมาที่ 089-xxxxxxx</p>
+            <a href="#" class="btn btn-success">ดูเพิ่มเติม</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2017 by
+            <a href="#">Aphiwit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1 Blog-->
+      <div class="col-md-3 col-sm-6" id="cardd">
+        <div class="card mb-4">
+          <img class="card-img-top" src="/img/pexels-photo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">รองเท้า</h2>
+            <p class="card-text">รองเท้าใช้แล้วอายุ 8 เดือน สภาพ 98% ไม่ค่อยได้ใช้ อยากจะให้คนที่ต้องการใช้จริงๆ ติดต่อมาที่ 089-xxxxxxx</p>
+            <a href="#" class="btn btn-success">ดูเพิ่มเติม</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2017 by
+            <a href="#">Aphiwit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1 Blog-->
+      <div class="col-md-3 col-sm-6" id="cardd">
+        <div class="card mb-4">
+          <img class="card-img-top" src="/img/pexels-photo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">รองเท้า</h2>
+            <p class="card-text">รองเท้าใช้แล้วอายุ 8 เดือน สภาพ 98% ไม่ค่อยได้ใช้ อยากจะให้คนที่ต้องการใช้จริงๆ ติดต่อมาที่ 089-xxxxxxx</p>
+            <a href="#" class="btn btn-success">ดูเพิ่มเติม</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2017 by
+            <a href="#">Aphiwit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1 Blog-->
+      <div class="col-md-3 col-sm-6" id="cardd">
+        <div class="card mb-4">
+          <img class="card-img-top" src="/img/pexels-photo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">รองเท้า</h2>
+            <p class="card-text">รองเท้าใช้แล้วอายุ 8 เดือน สภาพ 98% ไม่ค่อยได้ใช้ อยากจะให้คนที่ต้องการใช้จริงๆ ติดต่อมาที่ 089-xxxxxxx</p>
+            <a href="#" class="btn btn-success">ดูเพิ่มเติม</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2017 by
+            <a href="#">Aphiwit</a>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <br>
   </div>
 
 
 
-
-
 </body>
+
+
+<footer>
+  <hr>
+<div align="center">
+    Created BY
+    <a href="Aphiwiy.club">APHIWIT BOONPRASERT</a>
+</div>
+
+</footer>
 
 </html>
